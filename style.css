@@ -1,0 +1,139 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap');
+@font-face {
+    font-family: 'IDroid' ;
+    src: url(fontes/idroid.otf) format('opentype');
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: medium;
+    background-color: greenyellow;
+    margin: 0px;
+    padding: 0px;
+
+}
+main{
+    width: 800px;
+    padding: 1px;
+    margin: auto;
+    background-color: white;
+    border: 3px greenyellow;
+    box-shadow: 1px 1px 10px black;
+
+}
+article > p {
+    margin-left: 5px;
+}
+.titulo1 { font-family: 'IDroid';
+    margin-left: 5px;
+  
+    
+
+}
+.titulo2 {
+    font-family: 'IDroid';
+    margin-left: 5px;
+}
+.titulo3 {
+    font-family: 'IDroid';
+}
+header{
+ 
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: whitesmoke;
+    background-image: linear-gradient(to bottom, green, rgb(20, 53, 1));
+    margin: 0px;
+    padding: 5px;
+   
+    
+
+}
+header > h1 {text-shadow: 5px 5px 10px black;
+    margin-bottom: 0px;
+    font-family: 'Oswald';
+    font-weight: 100;
+    font-size: 3em;
+    
+}
+header > h2 {text-shadow: 5px 5px 10px black;
+    font-family: 'Oswald';
+    font-weight: 100;
+    font-size: 1em;
+}
+nav{
+    text-align: left;
+    
+}
+nav > a {
+    font-family: 'Oswald';
+    margin: 15px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+nav > a:hover{
+    background-color: green;
+    border: 5px solid green;
+    border-radius: 8px;
+    margin: 15px;
+ 
+}
+.titulo1 {
+    color: green;
+    font-size: 2em;
+}
+.titulo2 {color: green;
+    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.26), white);
+    
+}
+#caixadevideo{
+    width: fit-content;
+    background-color: green;
+    padding: 30px 120px;
+    }
+#bugdroid {
+    margin: 0px 0px 0px 160px;
+}
+span {
+    color: green;
+}
+a {
+    text-decoration: none;
+}
+.extra{ background-color: rgb(184, 252, 83);
+    margin: 0px;
+    border-radius: 10px;
+    font-size: small;
+    margin: 10px;
+
+}
+#tituloextra{
+    color: whitesmoke;
+        padding: 5px;
+    width: auto;
+    background-color: yellowgreen;
+    border: 1px;
+    border-color: yellowgreen;
+    border-radius: 5px 5px 0px 0px;
+}
+.conteudoextra {
+    margin: 15px;
+    font-weight: bold;
+
+}
+ul{display: inline-block;}
+footer{
+    background-color: green;
+    padding: 1px;
+    margin: 0;
+    font-weight: 300;
+    font-size: smaller;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+strong{
+    color: green;
+}
+
